@@ -1,4 +1,40 @@
-#heading
- {
-    font-style: italic;
+/* Styling elements using classes and IDs */
+
+/* Selector: Class */
+.title {
+    color: #2c3e50;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Selector: Class */
+.description {
+    color: #34495e;
+    font-family: 'Verdana', sans-serif;
+    margin: 10px 20px;
+    padding: 10px;
+    border: 1px solid #bdc3c7;
+}
+
+/* Selector: ID */
+#styled-image {
+    display: block;
+    margin: 20px auto;
+    border: 5px solid #2ecc71;
+    padding: 10px;
+}
+
+/* Selector: Class */
+.container {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #3498db;
+}
+
+/* Selector: Class */
+.text {
+    color: #e74c3c;
+    font-family: 'Courier New', monospace;
+    margin: 10px 0;
 }
